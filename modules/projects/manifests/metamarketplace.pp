@@ -13,7 +13,7 @@ class projects::metamarketplace {
   }
 
   ruby_gem { "bundler for ruby ${ruby_version}":
-    gem  => "bundler",
-    ruby_version => $ruby_version
+    gem           => "bundler",
+    ruby_version  => $ruby_version
   }
 }

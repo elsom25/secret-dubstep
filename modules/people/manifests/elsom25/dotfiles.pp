@@ -1,4 +1,4 @@
-class people::elsom25::dotfile {
+class people::elsom25::dotfiles {
   $dotfiles = "${boxen::config::srcdir}/dotfiles"
 
   repository { $dotfiles:
