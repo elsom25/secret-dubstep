@@ -58,9 +58,10 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-# My Modules
-
-github "bash",        "1.2.0"
-
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "osx",         "2.8.0"
+github "bash",        "1.2.0"
+github "mysql",       "1.99.19"
+github "redis",       "3.1.0"
