@@ -65,3 +65,4 @@ github "osx",         "2.8.0"
 github "bash",        "1.2.0"
 github "mysql",       "1.99.19"
 github "redis",       "3.1.0"
+# github "imagemagick", "1.3.0" # # imagemagick version for boxen is off

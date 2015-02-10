@@ -1,5 +1,6 @@
 class projects::metamarketplace {
   $ruby_version = "1.9.3-p448"
+  # include imagemagick # imagemagick version for boxen is off
   include phantomjs
 
   boxen::project { "metamarketplace":
