@@ -16,4 +16,9 @@ class projects::metamarketplace {
     gem           => "bundler",
     ruby_version  => $ruby_version
   }
+
+  # exec { "solr for ${name}":
+  #   command  => "env -i bash -c 'source /opt/boxen/env.sh && RBENV_VERSION=${ruby_version} rake sunspot:solr:start'",
+  #   path    => $path,
+  # }
 }

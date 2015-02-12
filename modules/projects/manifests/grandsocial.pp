@@ -7,7 +7,7 @@ class projects::grandsocial {
     mongodb       => true,
 
     source        => "djensenius/grandsocial",
-    dir           => "${boxen::config::srcdir}/work/${name}"
+    dir           => "${boxen::config::srcdir}/work/grandsocial"
   }
 
   nodejs::module { 'supervisor':
