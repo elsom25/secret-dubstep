@@ -63,12 +63,15 @@ github "xquartz",     "1.2.1"
 
 github "osx",         "2.8.0"
 github "bash",        "1.2.0"
-
+github "qt",          "1.4.0"
 github "java",        "1.8.0"
+
 github "virtualbox",  "1.0.13"
 github "docker",      "0.8.0"
 github "fig",         "1.0.0"
 
+github "sysctl",      "1.0.1" # required for postgresql
+github "postgresql",  "3.0.3"
 github "mysql",       "1.99.19"
 github "mongodb",     "1.3.3"
 github "redis",       "3.1.0"
