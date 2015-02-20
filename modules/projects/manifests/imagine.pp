@@ -12,4 +12,8 @@ class projects::imagine {
   nodejs::module { 'grunt-cli':
     node_version  => $node_version
   }
+
+  nodejs::module { 'police':
+    node_version  => $node_version
+  }
 }
