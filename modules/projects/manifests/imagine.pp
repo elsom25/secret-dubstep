@@ -16,4 +16,8 @@ class projects::imagine {
   nodejs::module { 'police':
     node_version  => $node_version
   }
+
+  nodejs::module { 'constable':
+    node_version  => $node_version
+  }
 }
