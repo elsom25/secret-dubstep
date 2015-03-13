@@ -67,8 +67,7 @@ github "qt",          "1.4.0"
 github "java",        "1.8.0"
 
 github "virtualbox",  "1.0.13"
-github "docker",      "0.8.0"
-github "fig",         "1.0.0"
+github "docker",      "0.9.0"
 
 github "sysctl",      "1.0.1" # required for postgresql
 github "postgresql",  "3.0.3"
