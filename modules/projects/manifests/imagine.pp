@@ -1,5 +1,5 @@
 class projects::imagine {
-  $node_version = "v0.12.0"
+  $node_version = "v0.12.1"
   include phantomjs
 
   boxen::project { "imagine":
@@ -10,14 +10,6 @@ class projects::imagine {
   }
 
   nodejs::module { 'grunt-cli':
-    node_version  => $node_version
-  }
-
-  nodejs::module { 'police':
-    node_version  => $node_version
-  }
-
-  nodejs::module { 'constable':
     node_version  => $node_version
   }
 }
