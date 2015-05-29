@@ -6,7 +6,7 @@ class projects::grandsocial {
     redis         => true,
     mongodb       => true,
 
-    source        => "djensenius/grandsocial",
+    source        => "elsom25/grandsocial",
     dir           => "${boxen::config::srcdir}/work/grandsocial"
   }
 
