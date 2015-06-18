@@ -1,5 +1,5 @@
 class projects::imagine {
-  $node_version = "v0.12.2"
+  $node_version = "v0.12.4"
   include phantomjs
 
   boxen::project { "imagine":
