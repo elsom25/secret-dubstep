@@ -1,21 +1,19 @@
 ---
 
 # See https://github.com/boxen/puppet-ruby for docs
-ruby::global::version: "2.1.4"
-ruby::rbenv_plugins:
-  rbenv-vars:
-    ensure: v1.0.0
-    source: sstephenson/rbenv-vars
-  ruby-build:
-    ensure: v20131225.1
-    source: sstephenson/ruby-build
-ruby::version::alias:
-  2.0.0: 2.0.0-p353
+"ruby::build::ensure": "v20150709"
+"ruby::global::version": "2.1.4"
+"ruby::rbenv_plugins":
+  "rbenv-vars":
+    "ensure": "v1.2.0"
+    "source": "sstephenson/rbenv-vars"
+"ruby::version::alias":
+  "2.0.0": "2.0.0-p353"
 
-docker::version: '1.5.0'
+"docker::version": "1.5.0"
 
 # See https://github.com/boxen/puppet-java for docs
-java::update_version: '71'
+"java::update_version": "71"
 
 # See https://github.com/boxen/puppet-mysql/issues/49
-mysql::socket: "%{::boxen::config::datadir}/mysql/socket"
+"mysql::socket": "%{::boxen::config::datadir}/mysql/socket"
