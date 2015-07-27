@@ -91,7 +91,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.3.0)
+    phantomjs (3.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
@@ -158,6 +158,11 @@ GITHUBTARBALL
   specs:
     module_data (0.0.3)
 
+GITHUBTARBALL
+  remote: steveatkins/puppet-qt5
+  specs:
+    qt5 (5.3.2.2)
+
 DEPENDENCIES
   bash (= 1.2.0)
   boxen (= 3.10.1)
@@ -179,10 +184,11 @@ DEPENDENCIES
   nodejs (= 4.0.0)
   openssl (= 1.0.0)
   osx (= 2.8.0)
-  phantomjs (= 2.3.0)
+  phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
   postgresql (= 3.0.3)
   qt (= 1.4.0)
+  qt5 (= 5.3.2.2)
   redis (= 3.1.0)
   repository (= 2.3.0)
   ruby (= 8.5.2)

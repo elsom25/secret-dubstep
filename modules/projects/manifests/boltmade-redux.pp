@@ -1,4 +1,7 @@
 class projects::boltmade-redux {
+  include qt5
+  include phantomjs
+  phantomjs::version { "2.0.0": }
   $ruby_version = "2.2.2"
   $node_version = "v0.12.0" # for bower dependencies
 
