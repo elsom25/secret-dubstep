@@ -1,5 +1,5 @@
 class projects::postal-when {
-  $node_version = "v0.12.0"
+  $node_version = "0.12.0"
   include phantomjs
 
   boxen::project { "postal-when":

@@ -1,5 +1,5 @@
 class projects::imagine {
-  $node_version = "v0.12.4"
+  $node_version = "0.12.4"
   include phantomjs
 
   boxen::project { "imagine":
@@ -7,9 +7,5 @@ class projects::imagine {
 
     source        => "Boltmade/imagine",
     dir           => "${boxen::config::srcdir}/work/imagine"
-  }
-
-  nodejs::module { 'grunt-cli':
-    node_version  => $node_version
   }
 }
