@@ -33,7 +33,7 @@ github "boxen", "3.10.1"
 
 # Support for default hiera data in modules
 
-github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
+github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -48,7 +48,7 @@ github "homebrew",    "1.11.2"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.4"
-github "nodejs",      "4.0.0"
+github "nodejs",      "5.0.2"
 github "openssl",     "1.0.0"
 github "phantomjs",   "3.0.0"
 github "pkgconfig",   "1.0.0"
@@ -64,10 +64,11 @@ github "xquartz",     "1.2.1"
 github "osx",         "2.8.0"
 github "bash",        "1.2.0"
 github "qt",          "1.4.0"
-github "qt5",         "5.3.2.2", :repo => "steveatkins/puppet-qt5"
+# github "qt5",         "5.3.2.2", :repo => "steveatkins/puppet-qt5"
 github "java",        "1.8.0"
 
 github "virtualbox",  "1.0.13"
+github "vagrant",     "3.3.1"
 github "docker",      "0.9.0"
 
 github "sysctl",      "1.0.1" # required for postgresql

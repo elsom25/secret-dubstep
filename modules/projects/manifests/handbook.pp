@@ -1,6 +1,6 @@
 class projects::handbook {
   $ruby_version = "2.2.2"
-  $node_version = "v0.12.0" # bundle dependencies make Boxen freakout without this
+  $node_version = "0.12.0" # bundle dependencies make Boxen freakout without this
 
   boxen::project { "handbook":
     ruby          => $ruby_version,
