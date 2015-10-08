@@ -10,3 +10,6 @@
 
 # See https://github.com/boxen/puppet-mysql/issues/49
 "mysql::socket": "%{::boxen::config::datadir}/mysql/socket"
+
+# See https://github.com/boxen/our-boxen/issues/778
+"python::pyenv_version": "db325cc66d8f77c859ac9cb770940ef5390c6eb0"
