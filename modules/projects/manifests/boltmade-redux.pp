@@ -1,5 +1,5 @@
 class projects::boltmade-redux {
-  include qt
+  # include qt
   include phantomjs
   phantomjs::version { "2.0.0": }
   $ruby_version = "2.2.2"
