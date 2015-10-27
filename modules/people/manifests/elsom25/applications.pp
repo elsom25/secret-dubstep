@@ -6,7 +6,7 @@ class people::elsom25::applications {
 
   # Install these with Cask - http://caskroom.io
   $cask_packages = [
-    "1password",
+    # "1password",      # Conflicts with appstore version
     "alfred",
     "bettertouchtool",
     "caffeine",
@@ -22,7 +22,7 @@ class people::elsom25::applications {
     "java",           # TODO: Not installed via boxen yet...
     "path-finder",
     "slack",
-    "sublime-text",
+    "sublime-text3",
     "todoist",
     "vagrant",        # TODO: Not installed via boxen yet...
     "virtualbox",     # TODO: Not installed via boxen yet...
