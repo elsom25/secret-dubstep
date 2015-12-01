@@ -7,6 +7,7 @@ class people::elsom25::applications {
   # Install these with Cask - http://caskroom.io
   $cask_packages = [
     # "1password",      # Conflicts with appstore version
+    "aerial",
     "alfred",
     "bettertouchtool",
     "caffeine",
