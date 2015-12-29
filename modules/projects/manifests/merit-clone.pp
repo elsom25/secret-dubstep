@@ -1,19 +1,18 @@
-class projects::metamarketplace {
+class projects::merit-clone {
   $ruby_version = "1.9.3-p448"
   # include imagemagick # imagemagick version for boxen is off
   include phantomjs
-  include dnsmasq
 
-  boxen::project { "metamarketplace":
+  boxen::project { "merit-clone":
     ruby          => $ruby_version,
     mysql         => true,
     redis         => true,
 
-    source        => "elsom25/manyfeek",
-    dir           => "${boxen::config::srcdir}/work/manyfeek"
+    source        => "Demeure/merit-clone",
+    dir           => "${boxen::config::srcdir}/work/merit-clone"
   }
 
-  ruby_gem { "bundler for metamarketplace ruby ${ruby_version}":
+  ruby_gem { "bundler for merit-clone ruby ${ruby_version}":
     gem           => "bundler",
     ruby_version  => $ruby_version
   }
