@@ -21,13 +21,12 @@ class people::elsom25::applications {
     "google-drive",
     "iterm2",
     "java",           # TODO: Not installed via boxen yet...
+    "omnifocus",
     "path-finder",
     "slack",
     "sublime-text3",
-    "todoist",
     "vagrant",        # TODO: Not installed via boxen yet...
     "virtualbox",     # TODO: Not installed via boxen yet...
-    "ynab",
   ]
 
   # Install the cask packages.
