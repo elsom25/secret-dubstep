@@ -9,7 +9,7 @@ class projects::metamarketplace {
     mysql         => true,
     redis         => true,
 
-    source        => "elsom25/manyfeek",
+    source        => "Demeure/manyfeek",
     dir           => "${boxen::config::srcdir}/work/manyfeek"
   }
 
