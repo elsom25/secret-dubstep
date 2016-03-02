@@ -11,22 +11,21 @@ class people::elsom25::applications {
     "alfred",
     "bettertouchtool",
     "caffeine",
-    "crashplan",      # TODO: Not installed via boxen yet...
+    # "crashplan",      # TODO: Not installed via boxen yet...
     "dropbox",
     "evernote",
     "firefox",
     "flux",
-    "goofy",
     "google-chrome",
     "google-drive",
     "iterm2",
-    "java",           # TODO: Not installed via boxen yet...
+    # "java",           # TODO: Not installed via boxen yet...
     "omnifocus",
     "path-finder",
     "slack",
     "sublime-text3",
-    "vagrant",        # TODO: Not installed via boxen yet...
-    "virtualbox",     # TODO: Not installed via boxen yet...
+    # "vagrant",        # TODO: Not installed via boxen yet...
+    # "virtualbox",     # TODO: Not installed via boxen yet...
   ]
 
   # Install the cask packages.
